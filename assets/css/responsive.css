@@ -1,23 +1,49 @@
-/* === RESPONSIVE STYLE === */
+/* =========================================
+   Responsive Global CSS - Kopiga Website
+   ========================================= */
 
-/* Tablet & HP landscape */
+/* Tablet & layar medium (≤ 992px) */
 @media (max-width: 992px) {
+  /* Navbar */
   .navbar .nav-links {
     gap: 15px;
+    font-size: 0.95rem;
   }
+
+  /* Hero Section */
   .hero h1 {
     font-size: 2rem;
   }
   .hero p {
     font-size: 1rem;
+    max-width: 90%;
+  }
+
+  /* Grid umum (menu, portfolio, contact) */
+  .menu-grid,
+  .portfolio-grid,
+  .contact-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  /* Footer */
+  footer {
+    font-size: 0.9rem;
   }
 }
 
-/* HP */
+/* HP & layar kecil (≤ 768px) */
 @media (max-width: 768px) {
+  /* Navbar jadi vertical */
   .navbar {
     flex-direction: column;
     align-items: flex-start;
+    padding: 10px 15px;
+  }
+
+  .navbar .logo {
+    margin-bottom: 10px;
   }
 
   .navbar .nav-links {
@@ -25,15 +51,59 @@
     width: 100%;
     background: #2a1e12;
     padding: 10px;
+    border-radius: 10px;
   }
 
-  .contact-grid,
-  .menu-grid {
+  .navbar .nav-links li {
+    margin: 5px 0;
+  }
+
+  /* Hero Section */
+  .hero {
+    padding: 60px 15px;
+    text-align: center;
+  }
+  .hero h1 {
+    font-size: 1.6rem;
+  }
+  .hero p {
+    font-size: 0.95rem;
+  }
+
+  /* Grid jadi 1 kolom */
+  .menu-grid,
+  .portfolio-grid,
+  .contact-grid {
     grid-template-columns: 1fr;
   }
 
+  /* Form di contact */
+  .contact-form input,
+  .contact-form textarea,
+  .contact-form button {
+    width: 100%;
+  }
+
+  /* Footer */
   footer {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     text-align: center;
+    padding: 20px 10px;
+  }
+}
+
+/* HP kecil (≤ 480px) */
+@media (max-width: 480px) {
+  .hero h1 {
+    font-size: 1.3rem;
+  }
+  .hero p {
+    font-size: 0.85rem;
+  }
+  .navbar .logo {
+    font-size: 1rem;
+  }
+  .navbar .nav-links {
+    font-size: 0.9rem;
   }
 }
