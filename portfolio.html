@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio - Kopi Pondok</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/portfolio.css">
+</head>
+<body>
+  <!-- NAVBAR -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">☕ Kopi Pondok</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">Tentang Kami</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="portfolio.html" class="active">Portofolio</a></li>
+        <li><a href="contact.html">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- PORTFOLIO SECTION -->
+  <section class="portfolio">
+    <div class="container">
+      <h1>Perjalanan Kopi Pondok</h1>
+      <p>Progres usaha kami dalam bentuk visual yang interaktif.</p>
+
+      <!-- Chart -->
+      <div class="chart-container">
+        <canvas id="portfolioChart"></canvas>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 Kopi Pondok | All Rights Reserved</p>
+    <p>Ikuti kami: 
+      <a href="#">Instagram</a> | 
+      <a href="#">Facebook</a> | 
+      <a href="#">WhatsApp</a>
+    </p>
+  </footer>
+
+  <!-- Chart.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="assets/js/portfolio.js"></script>
+</body>
+</html>
