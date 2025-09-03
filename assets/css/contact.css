@@ -2,6 +2,7 @@
 .contact {
   padding: 60px 20px;
   text-align: center;
+  background: linear-gradient(135deg, #ffcc80, #ffb74d);
 }
 
 .contact h1 {
@@ -52,7 +53,7 @@
 }
 
 .contact-form button {
-  background: #3e2723;
+  background: #f57c00;
   color: #fff;
   border: none;
   padding: 12px 25px;

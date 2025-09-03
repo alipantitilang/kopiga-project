@@ -54,10 +54,29 @@
 
 /* ===== About Preview ===== */
 .about-preview {
-  background: #fffdf8;
+  background: linear-gradient(135deg, #ffcc80, #ffb74d);
   padding: 4rem 10%;
   text-align: center;
 }
+
+/* === Buttons === */
+.btn {
+  display: inline-block;
+  background: #f57c00; /* orange kopi vibes */
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background: #5d4037; /* lebih gelap pas hover */
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
 
 /* ===== Menu Highlight ===== */
 .menu-highlight {
@@ -114,18 +133,50 @@
   font-style: italic;
 }
 
-/* ===== CTA Section ===== */
-.cta {
+/* === CTA Section (Kontras dengan Footer) === */
+.cta-section {
+  width: 100%;
+  background: linear-gradient(135deg, #ffcc80, #ffb74d); /* warna hangat cerah */
+  color: #3e2723;
   text-align: center;
-  padding: 4rem 10%;
-  background: #3c2a21;
-  color: #fff;
+  padding: 80px 20px;
 }
 
-.cta .btn {
-  margin-top: 1rem;
-  background: #ffcc66;
-  color: #3c2a21;
+.cta-section h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #4e342e;
+}
+
+.cta-section p {
+  font-size: 1.1rem;
+  margin-bottom: 25px;
+  color: #5d4037;
+}
+
+.cta-section .btn {
+  background: #f57c00;
+  color: #fff;
+  font-size: 1.1rem;
+  padding: 14px 30px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.cta-section .btn:hover {
+  background: #5d4037;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.3);
+}
+
+/* === Footer (gelap biar kontras) === */
+footer {
+  background: #3c2a21;
+  color: #ddd;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
 }
 
 /* ===== Animations ===== */

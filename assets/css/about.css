@@ -3,6 +3,7 @@
   padding: 60px 20px;
   text-align: center;
   animation: fadeIn 1s ease-in-out;
+  background: linear-gradient(135deg, #ffcc80, #ffb74d);
 }
 
 .about h1 {
@@ -21,9 +22,9 @@
 }
 
 .history {
-  background: #f9f4ef;
+  background: #fff;
   padding: 25px;
-  border-left: 5px solid #6d4c41;
+  border-left: 5px solid #3c2a21;
   border-radius: 8px;
   margin-bottom: 50px;
   opacity: 0;
@@ -62,7 +63,7 @@
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 15px;
-  border: 3px solid #d7ccc8;
+  border: 3px solid #3c2a21;
   transition: transform 0.4s ease;
 }
 

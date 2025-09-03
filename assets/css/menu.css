@@ -3,6 +3,7 @@
   padding: 60px 20px;
   text-align: center;
   animation: fadeIn 1s ease-in-out;
+  background: linear-gradient(135deg, #ffcc80, #ffb74d);
 }
 
 .menu h1 {
@@ -22,7 +23,7 @@
   font-size: 1.8rem;
   margin: 40px 0 20px;
   color: #3e2723;
-  border-bottom: 2px solid #d7ccc8;
+  border-bottom: 2px solid #3e2723;
   display: inline-block;
   padding-bottom: 5px;
   animation: slideUp 1s ease-in-out;
