@@ -3,15 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portofolio - Kopi Pondok</title>
+  <title>Portofolio - Kopiga</title>
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/portfolio.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
 <body>
   <!-- NAVBAR -->
   <header>
     <nav class="navbar">
-      <div class="logo">☕ Kopi Pondok</div>
+      <div class="logo">☕ Kopiga</div>
       <ul class="nav-links">
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">Tentang Kami</a></li>
@@ -25,19 +26,47 @@
   <!-- PORTFOLIO SECTION -->
   <section class="portfolio">
     <div class="container">
-      <h1>Perjalanan Kopi Pondok</h1>
-      <p>Progres usaha kami dalam bentuk visual yang interaktif.</p>
+      <h1 class="fade-in">Perjalanan Kopiga</h1>
+      <p class="fade-in">Progres usaha kami dalam bentuk visual dan proyek nyata.</p>
 
       <!-- Chart -->
-      <div class="chart-container">
+      <div class="chart-container fade-up">
         <canvas id="portfolioChart"></canvas>
+      </div>
+
+      <!-- Project Showcase -->
+      <h2 class="fade-in">Proyek dan Prestasi</h2>
+      <div class="portfolio-grid">
+        <div class="portfolio-card fade-up">
+          <img src="assets/images/gallery/portfolio/gerai-pertama.png" alt="Gerai Pertama">
+          <div class="card-content">
+            <h3>Gerai Pertama</h3>
+            <p>Dimulai dari kios kecil di sudut kota, Kopiga mulai dikenal sebagai kopi khas lokal.</p>
+          </div>
+        </div>
+
+        <div class="portfolio-card fade-up">
+          <img src="assets/images/gallery/portfolio/4-cabang.png" alt="Ekspansi">
+          <div class="card-content">
+            <h3>Ekspansi Cabang</h3>
+            <p>Kopiga berkembang pesat dengan 4 cabang di berbagai kota besar.</p>
+          </div>
+        </div>
+
+        <div class="portfolio-card fade-up">
+          <img src="assets/images/gallery/portfolio/sertifikat.png" alt="Penghargaan">
+          <div class="card-content">
+            <h3>Penghargaan Nasional</h3>
+            <p>Kopiga meraih penghargaan “Kopi Lokal Terbaik” tahun 2024.</p>
+          </div>
+        </div>
       </div>
     </div>
   </section>
 
   <!-- FOOTER -->
   <footer>
-    <p>© 2025 Kopi Pondok | All Rights Reserved</p>
+    <p>© 2025 Kopiga | Dibuat dengan ❤️ oleh tim pendiri</p>
     <p>Ikuti kami: 
       <a href="#">Instagram</a> | 
       <a href="#">Facebook</a> | 

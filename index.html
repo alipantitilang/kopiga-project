@@ -3,49 +3,104 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kopi Pondok</title>
+  <title>Kopiga</title>
+  <!-- Global Style -->
   <link rel="stylesheet" href="assets/css/style.css">
+  <!-- Style Khusus Index -->
+  <link rel="stylesheet" href="assets/css/index.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
 <body>
-  <!-- NAVBAR -->
-  <header>
-    <nav class="navbar">
-      <div class="logo">☕ Kopi Pondok</div>
-      <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">Tentang Kami</a></li>
-        <li><a href="menu.html">Menu</a></li>
-        <li><a href="portfolio.html">Portofolio</a></li>
-        <li><a href="contact.html">Kontak</a></li>
-      </ul>
-    </nav>
-  </header>
+  <!-- ===== Navbar ===== -->
+  <nav class="navbar">
+    <div class="logo">☕ Kopiga</div>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="about.html">Tentang</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="portfolio.html">Portofolio</a></li>
+      <li><a href="contact.html">Kontak</a></li>
+    </ul>
+  </nav>
 
-  <!-- HERO SECTION -->
+  <!-- ===== Hero Section ===== -->
   <section class="hero">
-    <h1>Selamat Datang di Kopi Pondok</h1>
-    <p>Kopi hangat, dari santri untuk negeri.</p>
-    <a href="menu.html" class="btn">Lihat Menu</a>
+    <div class="hero-content">
+      <h1>Selamat Datang di Kopiga</h1>
+      <p>Kopi hangat, cerita bersahabat, dan tradisi yang tak pernah pudar.</p>
+      <a href="menu.html" class="btn">Lihat Menu</a>
+    </div>
   </section>
 
-  <!-- CONTENT SINGKAT -->
-  <section class="intro">
-    <h2>Kenapa Kopi Pondok?</h2>
-    <p>
-      Dibuat dengan bahan pilihan dan penuh keberkahan, Kopi Pondok bukan sekadar minuman,
-      tapi cerita perjuangan santri yang penuh cita rasa.
-    </p>
+  <!-- ===== About Preview ===== -->
+  <section class="about-preview">
+    <div class="container">
+      <h2>Tentang Kami</h2>
+      <p>
+        Berawal dari pondok sederhana, kami menyajikan kopi dan teh pilihan dengan
+        cita rasa khas. Setiap cangkir dibuat dengan hati, untuk menemani waktu belajar,
+        diskusi, hingga perbincangan hangat bersama sahabat.
+      </p>
+      <a href="about.html" class="btn">Baca Selengkapnya</a>
+    </div>
   </section>
 
-  <!-- FOOTER -->
+  <!-- ===== Menu Highlight ===== -->
+  <section class="menu-highlight">
+    <div class="container">
+      <h2>Menu Favorit</h2>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <img src="assets/images/menu/signature/espresso.jpg" alt="Espresso">
+          <h3>Espresso</h3>
+          <p>Rasa kuat dan pekat, cocok untuk yang butuh energi ekstra.</p>
+        </div>
+        <div class="menu-item">
+          <img src="assets/images/menu/signature/latte.jpg" alt="Latte">
+          <h3>Coffee Latte</h3>
+          <p>Perpaduan kopi dan susu lembut, favorit semua kalangan.</p>
+        </div>
+        <div class="menu-item">
+          <img src="assets/images/menu/signature/teh.jpg" alt="Teh Hangat">
+          <h3>Teh Hangat</h3>
+          <p>Sederhana namun penuh makna, pas untuk ngobrol santai.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Testimoni ===== -->
+  <section class="testimoni">
+    <div class="container">
+      <h2>Kata Mereka</h2>
+      <div class="testi-grid">
+        <div class="testi-item">
+          <p>"Kopi Pesantren selalu jadi teman setia saat diskusi malam."</p>
+          <span>- Alif Fal, Santri</span>
+        </div>
+        <div class="testi-item">
+          <p>"Rasanya khas, suasananya hangat. Beda dari kafe modern biasa."</p>
+          <span>- Mahend, Mahasiswa</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CTA Section ===== -->
+  <section class="cta">
+    <h2>Mau coba langsung?</h2>
+    <p>Kunjungi warung kami dan rasakan kehangatan kopi pesantren.</p>
+    <a href="contact.html" class="btn">Hubungi Kami</a>
+  </section>
+
+  <!-- ===== Footer ===== -->
   <footer>
-    <p>© 2025 Kopi Pondok | All Rights Reserved</p>
-    <p>Ikuti kami: 
+    <p>© 2025 Kopiga | Dibuat dengan ❤️ oleh tim pendiri</p>
+    <p>
       <a href="#">Instagram</a> | 
       <a href="#">Facebook</a> | 
       <a href="#">WhatsApp</a>
     </p>
   </footer>
-
 </body>
 </html>

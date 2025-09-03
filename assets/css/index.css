@@ -1,0 +1,141 @@
+/* ===== Hero Section ===== */
+.hero {
+  position: relative;
+  height: 100vh;
+  background: url("../images/banner.jpg") no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  padding: 0 10%;
+  color: #fff;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.45);
+  z-index: 1;
+  pointer-events: none;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 600px;
+  animation: fadeUp 1.2s ease;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.hero .btn {
+  padding: 0.8rem 1.8rem;
+  font-size: 1rem;
+  background: #ffcc66;
+  color: #3c2a21;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.hero .btn:hover {
+  background: #e6b800;
+}
+
+/* ===== About Preview ===== */
+.about-preview {
+  background: #fffdf8;
+  padding: 4rem 10%;
+  text-align: center;
+}
+
+/* ===== Menu Highlight ===== */
+.menu-highlight {
+  padding: 4rem 10%;
+  background: #f9f5f0;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.menu-item {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 1rem;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.menu-item:hover {
+  transform: translateY(-8px);
+}
+
+.menu-item img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+/* ===== Testimoni ===== */
+.testimoni {
+  padding: 4rem 10%;
+  background: #fff;
+  text-align: center;
+}
+
+.testi-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.testi-item {
+  flex: 1 1 300px;
+  background: #f9f5f0;
+  padding: 1.5rem;
+  border-radius: 10px;
+  font-style: italic;
+}
+
+/* ===== CTA Section ===== */
+.cta {
+  text-align: center;
+  padding: 4rem 10%;
+  background: #3c2a21;
+  color: #fff;
+}
+
+.cta .btn {
+  margin-top: 1rem;
+  background: #ffcc66;
+  color: #3c2a21;
+}
+
+/* ===== Animations ===== */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(40px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+  .hero h1 { font-size: 2rem; }
+  .hero p { font-size: 1rem; }
+}

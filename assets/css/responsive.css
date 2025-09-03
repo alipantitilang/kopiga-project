@@ -1,0 +1,39 @@
+/* === RESPONSIVE STYLE === */
+
+/* Tablet & HP landscape */
+@media (max-width: 992px) {
+  .navbar .nav-links {
+    gap: 15px;
+  }
+  .hero h1 {
+    font-size: 2rem;
+  }
+  .hero p {
+    font-size: 1rem;
+  }
+}
+
+/* HP */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar .nav-links {
+    flex-direction: column;
+    width: 100%;
+    background: #2a1e12;
+    padding: 10px;
+  }
+
+  .contact-grid,
+  .menu-grid {
+    grid-template-columns: 1fr;
+  }
+
+  footer {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+}
