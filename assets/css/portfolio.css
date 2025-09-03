@@ -1,0 +1,17 @@
+/* Portfolio Chart */
+.portfolio {
+  padding: 3rem 2rem;
+  background: #fdfdfd;
+}
+
+.portfolio .container {
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+.chart-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 2rem auto;
+}

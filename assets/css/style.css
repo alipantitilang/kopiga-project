@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #3c2a21;
+  padding: 1rem 2rem;
+}
+
+.logo {
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  color: #ffcc66;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: url('../images/banner.jpg') center/cover no-repeat;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.8rem 1.5rem;
+  background: #ffcc66;
+  color: #3c2a21;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background: #e6b85c;
+}
+
+/* Intro */
+.intro {
+  text-align: center;
+  padding: 2rem;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #3c2a21;
+  color: #fff;
+}
+footer a {
+  color: #ffcc66;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* About Page */
+.about {
+  padding: 3rem 2rem;
+  background: #f9f9f9;
+}
+
+.about .container {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+.about h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #3c2a21;
+}
+
+.about p {
+  margin-bottom: 1rem;
+  color: #333;
+  line-height: 1.8;
+}
+
+/* Menu Page */
+.menu {
+  padding: 3rem 2rem;
+}
+
+.menu .container {
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+
+.menu h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #3c2a21;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.menu-item {
+  background: #fff;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.menu-item:hover {
+  transform: translateY(-5px);
+}
+
+.menu-item img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.menu-item h3 {
+  margin: 0.5rem 0;
+  color: #3c2a21;
+}
+
+.menu-item p {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.price {
+  display: block;
+  margin-top: 0.5rem;
+  font-weight: bold;
+  color: #3c2a21;
+}
+
